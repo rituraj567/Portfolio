@@ -1,9 +1,13 @@
 /*----PRIMARY COLOR #3498db----*/
 
 /*---- BASIC SETUP-----*/
+
 body {
   margin-top: 105px;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -35,14 +39,13 @@ textarea:focus {
 .nav-item {
   font-size: 1.2rem;
   padding-right: 20px;
+  font-weight: 400;
 }
 
 #showcase {
-  background: url("/img/mountains.jpeg");
+  background-image: url("../img/mountains.jpeg");
   position: relative;
   min-height: 700px;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .primary-overlay {
@@ -270,8 +273,6 @@ h4 {
   -webkit-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
-
-
 
 /*---ANIMATIONS----*/
 @-webkit-keyframes blink {
