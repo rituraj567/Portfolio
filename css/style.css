@@ -37,7 +37,7 @@ textarea:focus {
 }
 
 .nav-item {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-right: 20px;
   font-weight: 400;
 }
@@ -317,10 +317,6 @@ h4 {
   .img-projects {
     width: 20rem;
     height: 15rem;
-  }
-
-  .nav-link {
-    font-size: 1rem;
   }
 
   .holder .image .details p {
