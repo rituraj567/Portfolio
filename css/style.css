@@ -392,11 +392,21 @@ h4 {
     padding-right: 18px;
   }
 }
+
 @media (max-width: 470px) {
   .holder .image,
   .img-projects {
     width: 20rem;
     height: 15rem;
+  }
+
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.25em;
+    height: 1.25em;
   }
 
   .holder .image .details p {
