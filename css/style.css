@@ -37,7 +37,7 @@ textarea:focus {
 }
 
 .nav-item {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-right: 20px;
   font-weight: 400;
 }
@@ -379,11 +379,11 @@ h4 {
   }
 
   .columns button {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .lead {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -402,9 +402,8 @@ h4 {
 
   .navbar-toggler {
     display: inline-block;
-    margin-right: 3rem; 
+    margin-right: 3rem;
   }
-
 
   .holder .image .details p {
     top: 25%;
