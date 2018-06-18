@@ -19,6 +19,10 @@ span {
   display: inline-block;
 }
 
+.wow {
+  visibility: hidden;
+}
+
 .text-muted {
   font-style: italic;
 }
@@ -132,8 +136,52 @@ textarea:focus {
 .fa-codepen:hover {
   color: #000;
 }
-/*--- HEADINGS-----*/
 
+/*---- PROGRESS BARS-----*/
+.progress-bar-1 {
+  width: 90%;
+  height: 20px;
+}
+
+.progress-bar-2 {
+  width: 85%;
+  height: 20px;
+}
+.progress-bar-3 {
+  width: 80%;
+  height: 20px;
+}
+
+.progress-bar-4 {
+  width: 90%;
+  height: 20px;
+}
+
+.progress-bar-5 {
+  width: 80%;
+  height: 20px;
+}
+.progress-bar-6 {
+  width: 70%;
+  height: 20px;
+}
+.progress-bar-7 {
+  width: 90%;
+  height: 20px;
+}
+.progress-bar-8 {
+  width: 70%;
+  height: 20px;
+}
+.progress-bar-9 {
+  width: 70%;
+  height: 20px;
+}
+
+.blog {
+  width: 20rem;
+}
+/*--- HEADINGS-----*/
 h1,
 h2,
 h3 {
@@ -404,6 +452,23 @@ h4 {
     height: 15rem;
   }
 
+  .navbar,
+  .row,
+  .col-md-4,
+  .col-md-8,
+  .col,
+  .progress {
+    overflow-x: hidden;
+  }
+
+  .columns button {
+    font-size: 0.7rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
   .navbar-toggler {
     display: inline-block;
     margin-right: 3rem;
@@ -416,5 +481,30 @@ h4 {
 
   .project-link {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .row {
+    overflow-x: hidden;
+  }
+
+  .navbar-toggler {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+
+  .fa-facebook,
+  .fa-github,
+  .fa-linkedin,
+  .fa-codepen,
+  .fa-twitter {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .padding {
+    padding: 1.2rem !important;
   }
 }

@@ -22,6 +22,7 @@ jQuery(document).ready(function() {
     loop: true
   });
   
+  
   /*--Wow.js Effect-*/
   
   new WOW().init();
