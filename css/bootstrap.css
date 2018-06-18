@@ -1549,15 +1549,15 @@ fieldset[disabled] a.btn {
     background-color: #3498db;
     border-color: #3498db; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); }
+    box-shadow: 0 0 0 1px #2487c9; }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
     color: #007bff;
     background-color: transparent; }
   .btn-outline-primary:active, .btn-outline-primary.active,
   .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    background-color: #2487c9;
+    border-color: #2487c9; }
 
 .btn-outline-secondary {
   color: #868e96;
