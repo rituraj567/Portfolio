@@ -33,6 +33,10 @@ textarea:focus {
   border-bottom: 2px solid #3498db;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 /*----HEADER-----*/
 .navbar {
   -webkit-box-shadow: 2px 2px 5px #3498db;
